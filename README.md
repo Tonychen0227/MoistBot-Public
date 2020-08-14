@@ -16,6 +16,7 @@ This bot was ran between April 2020 - August 2020. Here are some interesting sta
 * Written in Python, with linux commands to aid deployment
 * Web-app written in Express (not released), hosted on the same EC2 instance ([LINK](http://ec2-54-202-8-87.us-west-2.compute.amazonaws.com:3000/))
 * Firebase realtime database was used
+* Scalable design, `DiscordClient` handles giveaway voting and all Discord activites, `GiveawayClient` handles the delivering of Pokémon and Seed Checks to the end user
  
 # Credits
 * [ShinySylveon04](https://github.com/ShinySylveon04) and [Abyzab](https://github.com/Abyzab) for helping me with basically everything
