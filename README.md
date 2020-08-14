@@ -15,7 +15,7 @@ This bot was ran between April 2020 - August 2020. Here are some interesting sta
 * Run on an Amazon EC2 instance, with three instances of `GiveawayClient` targeting three CFW Nintendo Switch consoles in my house
 * Written in Python, with linux commands to aid deployment
 * Web-app written in Express (not released), hosted on the same EC2 instance ([LINK](http://ec2-54-202-8-87.us-west-2.compute.amazonaws.com:3000/))
-* Firebase realtime database was used
+* Firebase realtime database was used [snapshot at 08-14-2020 3:36PM PST](snapshot.json)
 * Scalable design, `DiscordClient` handles giveaway voting and all Discord activites, `GiveawayClient` handles the delivering of Pokémon and Seed Checks to the end user
  
 # Credits
