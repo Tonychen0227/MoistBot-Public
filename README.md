@@ -6,6 +6,7 @@ This bot was ran between April 2020 - August 2020. Here are some interesting sta
 
 * 52727 Trade Searches were abandoned (no match after 2 minutes), 24919 Successful, 1396 matches were abandoned (no offered poke), 464 matches violated the rules
 * `SwShLegendary` was the most popular `Community` category (298 wins), `Battle` the most popular `Items` category (597 wins), `0Atk0SpeQuiet` the most popular `Ditto` category (107 wins)
+* Served 1091 unique users
 * 4 most offered Pokemon: Wooloo (2308), Ditto (2234), Eevee (987), Scorbunny (979)
 * Most frequent users: 🥇Coote (1107), 🥈Dylan(1088), 🥉Zack(979), NukeDoctor (964) (next highest had only 607!!)
 * Most trades per day, per user: 🥇Dylan(170 trades, 2020-05-18), 🥈Coote(166 trades, 2020-06-29), 🥉Dylan(135 trades, 2020-05-19)
