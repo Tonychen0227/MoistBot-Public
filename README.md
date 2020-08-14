@@ -1,4 +1,4 @@
-# DittoBot overview
+# MoistBot overview
 
 MoistBot is a Discord Bot run on a discord server called Shaymin's Meadow. The bot was inspired by [SysBot.NET](https://github.com/kwsch/SysBot.NET) and its capabilities, and the popularity of Pokémon giveaways and "seed checks." 
 
