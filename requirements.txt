@@ -1,0 +1,6 @@
+discord.py
+python-dotenv
+requests
+strawpoll.py
+Pyrebase-t
+z3-solver
