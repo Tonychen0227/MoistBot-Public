@@ -4,7 +4,7 @@ MoistBot is a Discord Bot run on a discord server called [Shaymin's Meadow](http
 
 This bot was ran between April 2020 - August 2020. Here are some interesting statistics.
 
-* 52727 Trade Searches were abandoned (no match after 2 minutes), 24919 Successful, 1396 matches were abandoned (no offered poke), 464 matches violated the rules
+* 52,727 Trade Searches were abandoned (no match after 2 minutes), 24,919 Successful, 1,396 matches were abandoned (no offered poke), 464 matches violated the rules
 * `SwShLegendary` was the most popular `Community` category (298 wins), `Battle` the most popular `Items` category (597 wins), `0Atk0SpeQuiet` the most popular `Ditto` category (107 wins)
 * Served 1091 unique users
 * 4 most offered Pokemon: Wooloo (2308), Ditto (2234), Eevee (987), Scorbunny (979)
@@ -19,6 +19,12 @@ This bot was ran between April 2020 - August 2020. Here are some interesting sta
 * Firebase realtime database was used [snapshot at 08-14-2020 3:36PM PST](snapshot.json)
 * Scalable design, `DiscordClient` handles giveaway voting and all Discord activites, `GiveawayClient` handles the delivering of Pokémon and Seed Checks to the end user
  
+# Getting Started
+
+* A firebase realtime database is required, and arguments required to connect it must be supplied via environment variables.
+* To run a "giveaway client" (a Nintendo Switch): `python GiveawayClient.py <Alias (anything> <IP Address> <port>`
+* To run a "discord client" (a Discord Bot): `python DiscordClient.py` (various elements are hardcoded, needs to be modified)
+
 # Credits
 * [ShinySylveon04](https://github.com/ShinySylveon04) and [Abyzab](https://github.com/Abyzab) for helping me with basically everything
 * [fishguy6564](https://gitlab.com/fishguy6564) for helping me decipher [lanturn bot](https://gitlab.com/fishguy6564/lanturn-bot-public-source-code), and for providing permission to "borrow" his [NumpadInterpreter.py](https://gitlab.com/fishguy6564/lanturn-bot-public-source-code/-/blob/master/NumpadInterpreter.py) and [PK8.py](https://gitlab.com/fishguy6564/lanturn-bot-public-source-code/-/blob/master/PK8.py), which were copied verbatim, with minor modifications to PK8.py.
